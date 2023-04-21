@@ -1,0 +1,24 @@
+[book]
+authors = ["Yannick Seurin"]
+language = "en"
+multilingual = false
+src = "src"
+title = "mdbook test"
+
+[output.katex]
+
+[output.html]
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.playground]
+runnable = false
+
+[preprocessor.katex]
+renderers = ["html"]
+macros = "src/macros.txt"
+block-delimiter = {left = "\\[", right = "\\]"}
+trust = true
