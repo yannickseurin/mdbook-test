@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install mdbook and mdbook-katex
+      - name: Install mdbook and mdbook-katex/toc/bib
         run: cargo install mdbook mdbook-katex mdbook-toc mdbook-bib
 
       - name: Build html
