@@ -1,5 +1,9 @@
 # Polynomials
 
+## Contents
+
+<!-- toc -->
+
 ## Generalities
 
 Let $\FF$ be a field (not necessarily finite).

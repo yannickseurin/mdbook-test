@@ -5,8 +5,6 @@ multilingual = false
 src = "src"
 title = "mdbook test"
 
-[output.katex]
-
 [output.html]
 no-section-label = true
 
@@ -17,8 +15,17 @@ level = 0
 [output.html.playground]
 runnable = false
 
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
 [preprocessor.katex]
-renderers = ["html"]
+after = ["links"]
 macros = "src/macros.txt"
 block-delimiter = {left = "\\[", right = "\\]"}
 trust = true
+
+[preprocessor.bib]
+title = "References"
+bibliography = "biblio.bib"
+hb-tpl = "ref_style.hbs"

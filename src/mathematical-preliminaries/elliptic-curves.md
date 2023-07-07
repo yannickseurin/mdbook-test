@@ -1,5 +1,11 @@
 # Elliptic Curves
 
+Cite test: {{#cite BLS01}}
+
+## Contents
+
+<!-- toc -->
+
 Let $\FF$ be a field of characteristic $p>3$.[^char]
 Let $a,b \in \FF$ be two field elements such that
 \[
