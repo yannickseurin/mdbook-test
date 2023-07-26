@@ -1,7 +1,5 @@
 # Elliptic Curves
 
-Cite test: {{#cite BLS01}}
-
 ## Contents
 
 <!-- toc -->
