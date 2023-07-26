@@ -24,8 +24,3 @@ after = ["links"]
 macros = "src/macros.txt"
 block-delimiter = {left = "\\[", right = "\\]"}
 trust = true
-
-[preprocessor.bib]
-title = "References"
-bibliography = "biblio.bib"
-hb-tpl = "ref_style.hbs"
