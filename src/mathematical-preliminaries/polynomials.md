@@ -86,3 +86,12 @@ Note that the Lagrange basis is indeed a basis for the $\FF$-vector space $\PR{d
 The coordinates of a polynomial $p \in \PR{d}$ in this basis are $(p(x_0), \dots, p(x_d))$.
 
 An important application of Lagrange interpolation is [Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+
+# Mermaid test
+
+```mermaid
+graph TD;
+    A(CDH) <-- type-1 --> C(co-CDH*);
+    B(co-CDH) <-- type-2 -->C;
+    C <-- type-1/2/3 -->D(EUF-CMA-sec of BLS);
+```
