@@ -13,9 +13,6 @@ jobs:
       - name: Install mdbook, mdbook-katex, mdbook-toc, mdbook-mermaid
         run: cargo install mdbook mdbook-katex mdbook-toc mdbook-mermaid
 
-      - name: Install mdbook-mermaid
-        run: mdbook-mermaid install .
-
       - name: Build html
         run: mdbook build
 
